@@ -66,7 +66,7 @@ img {
 }
 
 .content {
-  padding: 2rem;
+  padding: 1rem;
 }
 
 @media only screen and (min-width: 480px) {
@@ -74,21 +74,19 @@ img {
     display: flex;
     justify-content: space-between;
     font-size: 10px;
+    margin:auto;
     text-align: left;
-    width: 80em;
+    width: 80%;
   }
 
   .picture {
     order: 2;
-    width: 45em;
-  }
+    height:100%;
 
-  .outer {
   }
 
   .content {
-    padding: 2em 3em;
-    width: 35em;
+    width: 60em;
   }
 
   .stats {
